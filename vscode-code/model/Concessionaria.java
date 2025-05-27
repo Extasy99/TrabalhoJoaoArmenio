@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Concessionaria {
-    private List<Carro> carros;
+    private final List<Carro> carros;
 
     private Concessionaria() {
         carros = new ArrayList<>();

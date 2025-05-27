@@ -1,6 +1,5 @@
 //sistema de revenda de carros
 //criar classe carro com atributos principais
-
 public class Carro {
     private String marca;
     private String modelo;
@@ -8,8 +7,8 @@ public class Carro {
     private String placa;
     private int ano;
     private double preco;
-    
 
+    
 //construtor: inicializar os atributos 
     public Carro(String marca, String modelo, String cor, String placa, int ano, double preco) {
         this.marca = marca;
